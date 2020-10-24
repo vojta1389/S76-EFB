@@ -1,0 +1,94 @@
+$dark-grey: #162031;
+$gold: #b39b5b; //#b39b5b
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $dark-grey;
+  color: $gold;
+}
+
+body :hover {
+  text-decoration: none;
+}
+
+.workplace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.workplace div {
+  justify-content: center;
+  min-width: 20vw;
+}
+
+nav {
+  max-height: 40px;
+}
+
+.btn-gold {
+  background-color: $gold;
+  color: $dark-grey;
+}
+
+.btn-gold a {
+  color: $dark-grey;
+}
+
+.btn-gold a:hover {
+  text-decoration: none;
+}
+
+.btn-page {
+  width: 100px;
+  margin: 10px;
+}
+
+.bg-gold {
+  background-color: $gold;
+}
+
+.navbar-grey {
+  color: $dark-grey;
+}
+
+.navbar-grey a {
+  color: $dark-grey;
+}
+
+footer {
+  background-color: $dark-grey;
+  color: $gold;
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+}
+
+.wb input {
+  min-width: 15vw;
+  min-height: 45px;
+}
+
+.checklist {
+  list-style: none;
+}
+
+ul {
+  color: #f8f8f8;
+}
+
+ul li.second-line {
+  background-color: #555;
+  color: $gold;
+  border-radius: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
